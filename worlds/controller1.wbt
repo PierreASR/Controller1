@@ -1,14 +1,16 @@
 #VRML_SIM R2019a utf8
 WorldInfo {
-  info [
-  ]
 }
 Viewpoint {
-  orientation -0.7 0.7 0.2 0.75
-  position 1.2 1.6 2.3
-
+  orientation -0.18426710325560985 0.980907745358505 0.0621741888043656 0.5439266383963632
+  position 1.4330680870963335 0.43309631230526263 2.6798906107842937
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
+}
+Floor {
+}
+Robot {
+  controller "controller1"
 }
